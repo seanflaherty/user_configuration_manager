@@ -1,0 +1,15 @@
+[project]
+name = "user-configuration-manager"
+version = "0.1.0"
+description = "A simple settings management system using
+ a dictionary to store configuration names and values."
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = []
+
+[tool.pylint.main]
+init-hook = "import sys; sys.path.append('.')"
+source-roots = ["src"]
+
+[tool.pytest.ini_options]
+pythonpaths = ["."]
