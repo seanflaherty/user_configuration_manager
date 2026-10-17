@@ -1,8 +1,7 @@
 [project]
 name = "user-configuration-manager"
 version = "0.1.0"
-description = "A simple settings management system using
- a dictionary to store configuration names and values."
+description = "A simple settings management system using a dictionary to store configuration names and values."
 readme = "README.md"
 requires-python = ">=3.14"
 dependencies = []
